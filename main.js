@@ -194,10 +194,10 @@ define(function (require, exports, module) {
             KeyBindingManager.addBinding(commandId, shortcut);
         }
         
-        registerCommandHandler("toshsharma.bookmarks.toggleBookmark",   "Toggle Bookmark",   toggleBookmark,   "Ctrl-F4");
-        registerCommandHandler("toshsharma.bookmarks.nextBookmark",     "Next Bookmark",     nextBookmark,     "F4");
-        registerCommandHandler("toshsharma.bookmarks.previousBookmark", "Previous Bookmark", previousBookmark, "Shift-F4");
-        registerCommandHandler("toshsharma.bookmarks.clearBookmarks",   "Clear Bookmarks",   clearBookmarks,   "Ctrl-Shift-F4");
+        registerCommandHandler("toshsharma.bookmarks.toggleBookmark",   "Toggle Bookmark",   toggleBookmark,   "Cmd-Shift-Up");
+        registerCommandHandler("toshsharma.bookmarks.nextBookmark",     "Next Bookmark",     nextBookmark,     "Cmd-Right");
+        registerCommandHandler("toshsharma.bookmarks.previousBookmark", "Previous Bookmark", previousBookmark, "Cmd-Left");
+        registerCommandHandler("toshsharma.bookmarks.clearBookmarks",   "Clear Bookmarks",   clearBookmarks);
     }
 
     function addHandlers() {
