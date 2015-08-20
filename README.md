@@ -15,10 +15,9 @@ Bookmarks can be set using either keyboard shortcuts or entries under the Naviga
 
 ### Keyboard Shortcuts
 
-- Toggle Bookmark: `Cmd-F4` (Mac) or `Ctrl-F4` (Win)
-- Next Bookmark: `F4`
-- Previous Bookmark: `Shift-F4`
-- Clear Bookmarks: `Cmd-Shift-F4` (Mac) or `Ctrl-Shift-F4` (Win)
+- Toggle Bookmark: `Cmd-Shift-Up` (Mac) or `Ctrl-Shift-Up` (Win)
+- Next Bookmark: `Cmd-Right`
+- Previous Bookmark: `Cmd-Left`
 
 ### Notes
 
